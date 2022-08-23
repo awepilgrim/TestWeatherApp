@@ -1,0 +1,817 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		017FE2CF8C3EDDCB1D8C922C /* Pods_WheatherTestTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B65D87E936BF70EC52881785 /* Pods_WheatherTestTask.framework */; };
+		20C33F2EA7C45AB264E56B9B /* Pods_WheatherTestTask_WheatherTestTaskUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6E8A90420EE2F560C4BD138 /* Pods_WheatherTestTask_WheatherTestTaskUITests.framework */; };
+		4309A5EB28A12D03006B3282 /* addCity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4309A5EA28A12D03006B3282 /* addCity.swift */; };
+		43183CF4289BF1CE00B4DCDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43183CF3289BF1CE00B4DCDD /* AppDelegate.swift */; };
+		43183CF6289BF1CE00B4DCDD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43183CF5289BF1CE00B4DCDD /* SceneDelegate.swift */; };
+		43183CFB289BF1CE00B4DCDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43183CF9289BF1CE00B4DCDD /* Main.storyboard */; };
+		43183CFD289BF1CF00B4DCDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43183CFC289BF1CF00B4DCDD /* Assets.xcassets */; };
+		43183D00289BF1CF00B4DCDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43183CFE289BF1CF00B4DCDD /* LaunchScreen.storyboard */; };
+		43183D0B289BF1CF00B4DCDD /* WheatherTestTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43183D0A289BF1CF00B4DCDD /* WheatherTestTaskTests.swift */; };
+		43183D15289BF1CF00B4DCDD /* WheatherTestTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43183D14289BF1CF00B4DCDD /* WheatherTestTaskUITests.swift */; };
+		43183D17289BF1CF00B4DCDD /* WheatherTestTaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43183D16289BF1CF00B4DCDD /* WheatherTestTaskUITestsLaunchTests.swift */; };
+		43183D24289BF21C00B4DCDD /* WeatherTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43183D23289BF21C00B4DCDD /* WeatherTVC.swift */; };
+		43183D66289ED83500B4DCDD /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43183D65289ED83500B4DCDD /* Constant.swift */; };
+		43183D68289ED91300B4DCDD /* NetworkWeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43183D67289ED91300B4DCDD /* NetworkWeatherManager.swift */; };
+		43183D6A289EDB6F00B4DCDD /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43183D69289EDB6F00B4DCDD /* WeatherData.swift */; };
+		43183D6C289EDEE200B4DCDD /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43183D6B289EDEE200B4DCDD /* Weather.swift */; };
+		43183D6F28A0127500B4DCDD /* GetCitiesWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43183D6E28A0127500B4DCDD /* GetCitiesWeather.swift */; };
+		43183D7128A02BE600B4DCDD /* ListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43183D7028A02BE600B4DCDD /* ListCell.swift */; };
+		43183D7328A107FF00B4DCDD /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43183D7228A107FF00B4DCDD /* DetailVC.swift */; };
+		848B25FB8D7F8F9B63B44B45 /* Pods_WheatherTestTaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36455F7AB23FC4112379A17E /* Pods_WheatherTestTaskTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		43183D07289BF1CF00B4DCDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43183CE8289BF1CD00B4DCDD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43183CEF289BF1CE00B4DCDD;
+			remoteInfo = WheatherTestTask;
+		};
+		43183D11289BF1CF00B4DCDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43183CE8289BF1CD00B4DCDD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43183CEF289BF1CE00B4DCDD;
+			remoteInfo = WheatherTestTask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01E672B159998778676A936B /* Pods-WheatherTestTaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WheatherTestTaskTests.release.xcconfig"; path = "Target Support Files/Pods-WheatherTestTaskTests/Pods-WheatherTestTaskTests.release.xcconfig"; sourceTree = "<group>"; };
+		029B8069FF824221DCC7E777 /* Pods-WheatherTestTaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WheatherTestTaskTests.debug.xcconfig"; path = "Target Support Files/Pods-WheatherTestTaskTests/Pods-WheatherTestTaskTests.debug.xcconfig"; sourceTree = "<group>"; };
+		36455F7AB23FC4112379A17E /* Pods_WheatherTestTaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WheatherTestTaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4309A5EA28A12D03006B3282 /* addCity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addCity.swift; sourceTree = "<group>"; };
+		43183CF0289BF1CE00B4DCDD /* WheatherTestTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WheatherTestTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43183CF3289BF1CE00B4DCDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		43183CF5289BF1CE00B4DCDD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		43183CFA289BF1CE00B4DCDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		43183CFC289BF1CF00B4DCDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		43183CFF289BF1CF00B4DCDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		43183D01289BF1CF00B4DCDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43183D06289BF1CF00B4DCDD /* WheatherTestTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WheatherTestTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43183D0A289BF1CF00B4DCDD /* WheatherTestTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheatherTestTaskTests.swift; sourceTree = "<group>"; };
+		43183D10289BF1CF00B4DCDD /* WheatherTestTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WheatherTestTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43183D14289BF1CF00B4DCDD /* WheatherTestTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheatherTestTaskUITests.swift; sourceTree = "<group>"; };
+		43183D16289BF1CF00B4DCDD /* WheatherTestTaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheatherTestTaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		43183D23289BF21C00B4DCDD /* WeatherTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherTVC.swift; sourceTree = "<group>"; };
+		43183D65289ED83500B4DCDD /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		43183D67289ED91300B4DCDD /* NetworkWeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkWeatherManager.swift; sourceTree = "<group>"; };
+		43183D69289EDB6F00B4DCDD /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
+		43183D6B289EDEE200B4DCDD /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		43183D6E28A0127500B4DCDD /* GetCitiesWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCitiesWeather.swift; sourceTree = "<group>"; };
+		43183D7028A02BE600B4DCDD /* ListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCell.swift; sourceTree = "<group>"; };
+		43183D7228A107FF00B4DCDD /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		7A4AA6C91C1CD6C71647E247 /* Pods-WheatherTestTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WheatherTestTask.debug.xcconfig"; path = "Target Support Files/Pods-WheatherTestTask/Pods-WheatherTestTask.debug.xcconfig"; sourceTree = "<group>"; };
+		B65D87E936BF70EC52881785 /* Pods_WheatherTestTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WheatherTestTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6E8A90420EE2F560C4BD138 /* Pods_WheatherTestTask_WheatherTestTaskUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WheatherTestTask_WheatherTestTaskUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E977EF3BF707A4F1445510EA /* Pods-WheatherTestTask-WheatherTestTaskUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WheatherTestTask-WheatherTestTaskUITests.debug.xcconfig"; path = "Target Support Files/Pods-WheatherTestTask-WheatherTestTaskUITests/Pods-WheatherTestTask-WheatherTestTaskUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F34EB0FF031D650EC2DC5D93 /* Pods-WheatherTestTask-WheatherTestTaskUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WheatherTestTask-WheatherTestTaskUITests.release.xcconfig"; path = "Target Support Files/Pods-WheatherTestTask-WheatherTestTaskUITests/Pods-WheatherTestTask-WheatherTestTaskUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F86B39142169B17C2AB0256D /* Pods-WheatherTestTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WheatherTestTask.release.xcconfig"; path = "Target Support Files/Pods-WheatherTestTask/Pods-WheatherTestTask.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43183CED289BF1CE00B4DCDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				017FE2CF8C3EDDCB1D8C922C /* Pods_WheatherTestTask.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43183D03289BF1CF00B4DCDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848B25FB8D7F8F9B63B44B45 /* Pods_WheatherTestTaskTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43183D0D289BF1CF00B4DCDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20C33F2EA7C45AB264E56B9B /* Pods_WheatherTestTask_WheatherTestTaskUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		189046796F8211426530D4D3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7A4AA6C91C1CD6C71647E247 /* Pods-WheatherTestTask.debug.xcconfig */,
+				F86B39142169B17C2AB0256D /* Pods-WheatherTestTask.release.xcconfig */,
+				E977EF3BF707A4F1445510EA /* Pods-WheatherTestTask-WheatherTestTaskUITests.debug.xcconfig */,
+				F34EB0FF031D650EC2DC5D93 /* Pods-WheatherTestTask-WheatherTestTaskUITests.release.xcconfig */,
+				029B8069FF824221DCC7E777 /* Pods-WheatherTestTaskTests.debug.xcconfig */,
+				01E672B159998778676A936B /* Pods-WheatherTestTaskTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3CDB21C439848DB811BECD0B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B65D87E936BF70EC52881785 /* Pods_WheatherTestTask.framework */,
+				B6E8A90420EE2F560C4BD138 /* Pods_WheatherTestTask_WheatherTestTaskUITests.framework */,
+				36455F7AB23FC4112379A17E /* Pods_WheatherTestTaskTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		43183CE7289BF1CD00B4DCDD = {
+			isa = PBXGroup;
+			children = (
+				43183CF2289BF1CE00B4DCDD /* WheatherTestTask */,
+				43183D09289BF1CF00B4DCDD /* WheatherTestTaskTests */,
+				43183D13289BF1CF00B4DCDD /* WheatherTestTaskUITests */,
+				43183CF1289BF1CE00B4DCDD /* Products */,
+				189046796F8211426530D4D3 /* Pods */,
+				3CDB21C439848DB811BECD0B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		43183CF1289BF1CE00B4DCDD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43183CF0289BF1CE00B4DCDD /* WheatherTestTask.app */,
+				43183D06289BF1CF00B4DCDD /* WheatherTestTaskTests.xctest */,
+				43183D10289BF1CF00B4DCDD /* WheatherTestTaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43183CF2289BF1CE00B4DCDD /* WheatherTestTask */ = {
+			isa = PBXGroup;
+			children = (
+				43183D62289ED71000B4DCDD /* Model */,
+				43183D63289ED72200B4DCDD /* View */,
+				43183D64289ED74900B4DCDD /* Supporting files */,
+			);
+			path = WheatherTestTask;
+			sourceTree = "<group>";
+		};
+		43183D09289BF1CF00B4DCDD /* WheatherTestTaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				43183D0A289BF1CF00B4DCDD /* WheatherTestTaskTests.swift */,
+			);
+			path = WheatherTestTaskTests;
+			sourceTree = "<group>";
+		};
+		43183D13289BF1CF00B4DCDD /* WheatherTestTaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				43183D14289BF1CF00B4DCDD /* WheatherTestTaskUITests.swift */,
+				43183D16289BF1CF00B4DCDD /* WheatherTestTaskUITestsLaunchTests.swift */,
+			);
+			path = WheatherTestTaskUITests;
+			sourceTree = "<group>";
+		};
+		43183D62289ED71000B4DCDD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				43183D67289ED91300B4DCDD /* NetworkWeatherManager.swift */,
+				43183D69289EDB6F00B4DCDD /* WeatherData.swift */,
+				43183D6B289EDEE200B4DCDD /* Weather.swift */,
+				43183D6E28A0127500B4DCDD /* GetCitiesWeather.swift */,
+				43183D7028A02BE600B4DCDD /* ListCell.swift */,
+				4309A5EA28A12D03006B3282 /* addCity.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		43183D63289ED72200B4DCDD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				43183CF9289BF1CE00B4DCDD /* Main.storyboard */,
+				43183D7228A107FF00B4DCDD /* DetailVC.swift */,
+				43183D23289BF21C00B4DCDD /* WeatherTVC.swift */,
+				43183CFE289BF1CF00B4DCDD /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		43183D64289ED74900B4DCDD /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				43183CF3289BF1CE00B4DCDD /* AppDelegate.swift */,
+				43183CF5289BF1CE00B4DCDD /* SceneDelegate.swift */,
+				43183CFC289BF1CF00B4DCDD /* Assets.xcassets */,
+				43183D01289BF1CF00B4DCDD /* Info.plist */,
+				43183D65289ED83500B4DCDD /* Constant.swift */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43183CEF289BF1CE00B4DCDD /* WheatherTestTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43183D1A289BF1CF00B4DCDD /* Build configuration list for PBXNativeTarget "WheatherTestTask" */;
+			buildPhases = (
+				A7625AA3373B369AFC2F3074 /* [CP] Check Pods Manifest.lock */,
+				43183CEC289BF1CE00B4DCDD /* Sources */,
+				43183CED289BF1CE00B4DCDD /* Frameworks */,
+				43183CEE289BF1CE00B4DCDD /* Resources */,
+				8AAED5901718AB5BB245094D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WheatherTestTask;
+			productName = WheatherTestTask;
+			productReference = 43183CF0289BF1CE00B4DCDD /* WheatherTestTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		43183D05289BF1CF00B4DCDD /* WheatherTestTaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43183D1D289BF1CF00B4DCDD /* Build configuration list for PBXNativeTarget "WheatherTestTaskTests" */;
+			buildPhases = (
+				600C2F249D02FB3954683AD7 /* [CP] Check Pods Manifest.lock */,
+				43183D02289BF1CF00B4DCDD /* Sources */,
+				43183D03289BF1CF00B4DCDD /* Frameworks */,
+				43183D04289BF1CF00B4DCDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43183D08289BF1CF00B4DCDD /* PBXTargetDependency */,
+			);
+			name = WheatherTestTaskTests;
+			productName = WheatherTestTaskTests;
+			productReference = 43183D06289BF1CF00B4DCDD /* WheatherTestTaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		43183D0F289BF1CF00B4DCDD /* WheatherTestTaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43183D20289BF1CF00B4DCDD /* Build configuration list for PBXNativeTarget "WheatherTestTaskUITests" */;
+			buildPhases = (
+				5F3AEA869DA08570F0A8F83D /* [CP] Check Pods Manifest.lock */,
+				43183D0C289BF1CF00B4DCDD /* Sources */,
+				43183D0D289BF1CF00B4DCDD /* Frameworks */,
+				43183D0E289BF1CF00B4DCDD /* Resources */,
+				037127F74498E50DE10C9DEE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43183D12289BF1CF00B4DCDD /* PBXTargetDependency */,
+			);
+			name = WheatherTestTaskUITests;
+			productName = WheatherTestTaskUITests;
+			productReference = 43183D10289BF1CF00B4DCDD /* WheatherTestTaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43183CE8289BF1CD00B4DCDD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					43183CEF289BF1CE00B4DCDD = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					43183D05289BF1CF00B4DCDD = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 43183CEF289BF1CE00B4DCDD;
+					};
+					43183D0F289BF1CF00B4DCDD = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 43183CEF289BF1CE00B4DCDD;
+					};
+				};
+			};
+			buildConfigurationList = 43183CEB289BF1CE00B4DCDD /* Build configuration list for PBXProject "WheatherTestTask" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 43183CE7289BF1CD00B4DCDD;
+			productRefGroup = 43183CF1289BF1CE00B4DCDD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43183CEF289BF1CE00B4DCDD /* WheatherTestTask */,
+				43183D05289BF1CF00B4DCDD /* WheatherTestTaskTests */,
+				43183D0F289BF1CF00B4DCDD /* WheatherTestTaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43183CEE289BF1CE00B4DCDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43183D00289BF1CF00B4DCDD /* LaunchScreen.storyboard in Resources */,
+				43183CFD289BF1CF00B4DCDD /* Assets.xcassets in Resources */,
+				43183CFB289BF1CE00B4DCDD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43183D04289BF1CF00B4DCDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43183D0E289BF1CF00B4DCDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		037127F74498E50DE10C9DEE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WheatherTestTask-WheatherTestTaskUITests/Pods-WheatherTestTask-WheatherTestTaskUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WheatherTestTask-WheatherTestTaskUITests/Pods-WheatherTestTask-WheatherTestTaskUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WheatherTestTask-WheatherTestTaskUITests/Pods-WheatherTestTask-WheatherTestTaskUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F3AEA869DA08570F0A8F83D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WheatherTestTask-WheatherTestTaskUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		600C2F249D02FB3954683AD7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WheatherTestTaskTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8AAED5901718AB5BB245094D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WheatherTestTask/Pods-WheatherTestTask-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WheatherTestTask/Pods-WheatherTestTask-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WheatherTestTask/Pods-WheatherTestTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7625AA3373B369AFC2F3074 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WheatherTestTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43183CEC289BF1CE00B4DCDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43183CF4289BF1CE00B4DCDD /* AppDelegate.swift in Sources */,
+				4309A5EB28A12D03006B3282 /* addCity.swift in Sources */,
+				43183D24289BF21C00B4DCDD /* WeatherTVC.swift in Sources */,
+				43183D6F28A0127500B4DCDD /* GetCitiesWeather.swift in Sources */,
+				43183D68289ED91300B4DCDD /* NetworkWeatherManager.swift in Sources */,
+				43183CF6289BF1CE00B4DCDD /* SceneDelegate.swift in Sources */,
+				43183D7328A107FF00B4DCDD /* DetailVC.swift in Sources */,
+				43183D6A289EDB6F00B4DCDD /* WeatherData.swift in Sources */,
+				43183D7128A02BE600B4DCDD /* ListCell.swift in Sources */,
+				43183D66289ED83500B4DCDD /* Constant.swift in Sources */,
+				43183D6C289EDEE200B4DCDD /* Weather.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43183D02289BF1CF00B4DCDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43183D0B289BF1CF00B4DCDD /* WheatherTestTaskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43183D0C289BF1CF00B4DCDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43183D15289BF1CF00B4DCDD /* WheatherTestTaskUITests.swift in Sources */,
+				43183D17289BF1CF00B4DCDD /* WheatherTestTaskUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		43183D08289BF1CF00B4DCDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43183CEF289BF1CE00B4DCDD /* WheatherTestTask */;
+			targetProxy = 43183D07289BF1CF00B4DCDD /* PBXContainerItemProxy */;
+		};
+		43183D12289BF1CF00B4DCDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43183CEF289BF1CE00B4DCDD /* WheatherTestTask */;
+			targetProxy = 43183D11289BF1CF00B4DCDD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		43183CF9289BF1CE00B4DCDD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43183CFA289BF1CE00B4DCDD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		43183CFE289BF1CF00B4DCDD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43183CFF289BF1CF00B4DCDD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		43183D18289BF1CF00B4DCDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		43183D19289BF1CF00B4DCDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		43183D1B289BF1CF00B4DCDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A4AA6C91C1CD6C71647E247 /* Pods-WheatherTestTask.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GHQ4L3V97P;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "WheatherTestTask/Supporting files/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Oleg.WheatherTestTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		43183D1C289BF1CF00B4DCDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F86B39142169B17C2AB0256D /* Pods-WheatherTestTask.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GHQ4L3V97P;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "WheatherTestTask/Supporting files/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Oleg.WheatherTestTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		43183D1E289BF1CF00B4DCDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 029B8069FF824221DCC7E777 /* Pods-WheatherTestTaskTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GHQ4L3V97P;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Oleg.WheatherTestTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WheatherTestTask.app/WheatherTestTask";
+			};
+			name = Debug;
+		};
+		43183D1F289BF1CF00B4DCDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01E672B159998778676A936B /* Pods-WheatherTestTaskTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GHQ4L3V97P;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Oleg.WheatherTestTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WheatherTestTask.app/WheatherTestTask";
+			};
+			name = Release;
+		};
+		43183D21289BF1CF00B4DCDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E977EF3BF707A4F1445510EA /* Pods-WheatherTestTask-WheatherTestTaskUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GHQ4L3V97P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Oleg.WheatherTestTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WheatherTestTask;
+			};
+			name = Debug;
+		};
+		43183D22289BF1CF00B4DCDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F34EB0FF031D650EC2DC5D93 /* Pods-WheatherTestTask-WheatherTestTaskUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GHQ4L3V97P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Oleg.WheatherTestTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WheatherTestTask;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43183CEB289BF1CE00B4DCDD /* Build configuration list for PBXProject "WheatherTestTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43183D18289BF1CF00B4DCDD /* Debug */,
+				43183D19289BF1CF00B4DCDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43183D1A289BF1CF00B4DCDD /* Build configuration list for PBXNativeTarget "WheatherTestTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43183D1B289BF1CF00B4DCDD /* Debug */,
+				43183D1C289BF1CF00B4DCDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43183D1D289BF1CF00B4DCDD /* Build configuration list for PBXNativeTarget "WheatherTestTaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43183D1E289BF1CF00B4DCDD /* Debug */,
+				43183D1F289BF1CF00B4DCDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43183D20289BF1CF00B4DCDD /* Build configuration list for PBXNativeTarget "WheatherTestTaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43183D21289BF1CF00B4DCDD /* Debug */,
+				43183D22289BF1CF00B4DCDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 43183CE8289BF1CD00B4DCDD /* Project object */;
+}

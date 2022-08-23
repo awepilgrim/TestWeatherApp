@@ -1,0 +1,6 @@
+framework module Pods_WheatherTestTask_WheatherTestTaskUITests {
+  umbrella header "Pods-WheatherTestTask-WheatherTestTaskUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
